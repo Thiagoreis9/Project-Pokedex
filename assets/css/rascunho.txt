@@ -1,0 +1,24 @@
+	    <li>
+                Butterfree
+                <img src="assets/imagens/butterfree.png" alt="butterfree">
+            </li>
+            <li>
+                Ditto
+                <img src="assets/imagens/ditto.png" alt="ditto">
+            </li>
+            <li>
+                Gastle
+                <img src="assets/imagens/gastle.png" alt="gastle">
+            </li>
+            <li>
+                Mew
+                <img src="assets/imagens/mew.png" alt="mew">
+            </li>
+            <li>
+                Pikachu
+                <img src="assets/imagens/pikachu.png" alt="pikachu">
+            </li>
+            <li>
+                Squirtle
+                <img src="assets/imagens/squirtle.png" alt="squirtle">
+            </li>

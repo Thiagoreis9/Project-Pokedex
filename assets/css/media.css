@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+@font-face {
+    font-family: 'PokemonSolid';
+    src: url("../fonts/PokemonSolid.ttf");
+}
+
+@media screen and (max-width: 440px){
+    .pokemons{
+        grid-template-columns: 1fr;
+
+    }
+
+    .content{
+        background-position-x: 255px;
+        background-position-y: -70px;
+        
+    }
+
+}
+
+@media screen and (min-width: 576px){
+    .pokemons{
+        grid-template-columns: 1fr 1fr 1fr;
+    
+    }
+
+    .content{
+        background-position-x: 322.5px;
+        background-position-y: -70px;
+        
+    }
+
+}
+
+@media screen and (min-width: 992px){
+    .pokemons{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    }
+
+    .content{
+        height: auto;
+        max-width: 992px;
+        margin: 1rem auto;
+        border-radius: 1rem;
+        
+        background-position-x: 530px;
+        background-position-y: -70px;
+            
+        
+    }
+
+}
