@@ -1,6 +1,5 @@
 body{
     background-color: #f6f8fc;
-    
 
 }
 
@@ -14,6 +13,11 @@ body h1{
         4px -4px 0px #3761A8,    
         4px 0px 0px #3761A8;
 
+}
+
+a{
+    text-transform: none;
+    text-decoration: none;
 }
 
 *{
@@ -38,6 +42,14 @@ body h1{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+
+}
+
+.content header h2{
+    
+    
+    color: blue;
+    text-align: right
 
 }
 
@@ -141,4 +153,8 @@ body h1{
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+}
+
+.pokeDetail{
+    background-color: #49D0B0;
 }
