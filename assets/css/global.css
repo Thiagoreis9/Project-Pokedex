@@ -64,6 +64,7 @@ a{
 }
 
 .pokemon {
+    
     margin: .5rem;
     padding: 1rem;
     background-image: url(../imagens/Pokeball.png);
@@ -75,15 +76,11 @@ a{
     display: flex;
     flex-direction: column;
     text-transform: capitalize;
-    text-shadow: 
-        -0.5px -0.5px 0px #000, 
-        -0.5px 0.5px 0px #000,      
-        0.5px -0.5px 0px #000,    
-        0.5px 0px 0px #000;
     
 }
 
 .pokemon .number{
+    font-family: 'Poppins', sans-serif;
     color: #000;
     text-align: right;
     opacity: 0.3;
@@ -92,6 +89,7 @@ a{
 }
 
 .pokemon .name{
+    font-family: 'Poppins', sans-serif;
     color: #fff;
     margin: .25rem 0;
     margin-bottom: 0;
