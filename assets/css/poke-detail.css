@@ -28,12 +28,11 @@
 
 body{
     background-color: #f6f8fc;
-    
-    
+      
 }
 
 header{
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,7 +78,7 @@ header a{
     text-align: center;
     display: flex;
     justify-content: center;
-    margin-top: -60px;
+    margin-top: -35px;
     padding-top: 50px;
 }
 
@@ -94,12 +93,16 @@ header a{
 }
 
 .pokemonView{
-    padding: 1rem;
+    padding: 0 1rem;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
     text-align: center;
+    
+}
+.pokemonView img{
+    width: 15rem;
     
 }
 
@@ -157,5 +160,48 @@ header a{
 .moves ol{
     list-style: none;
     padding:0;
+}
+
+.attachments{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.attachments ol{
+    list-style: none;
+    padding: .5rem;
+}
+.attachments li{
+    padding: .5rem;
+}
+
+.properties img{
+    padding: 1.5rem 0;
+    
+    
+}
+.properties{
+    display: flex;
+    flex-direction: row;
+}
+.propertiesValues li{
+    padding: .5rem;
+    text-align: center;
+    color: #000;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+.propertiesLista{
+    
+    text-align: center;
+    color: #74CB48;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+.propertiesValues img{
+    padding: 0 1rem;
+    width: 70%;
 }
 
