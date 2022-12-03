@@ -5,6 +5,10 @@
     src: url("../fonts/PokemonSolid.ttf");
 
 }
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url("../fonts/Poppins-Regular.ttf");
+}
 
 @media screen and (min-width: 992px){
     .pokemons{
@@ -84,11 +88,16 @@ header a{
 
 .pokeStatus .types .type{
     border-radius: 1rem;
+    padding-top: 5px;
     width: 4rem;
+    height: 1rem;
     margin: 0 0.5rem;
-    font-size: 1rem;
+    font-family: 'Poppins-Regular';
+    font-weight: bold;
+    font-size: 12px;
     text-align: center;
     text-transform: capitalize;
+    
     
 }
 
@@ -135,7 +144,7 @@ header a{
     color: #74CB48;
     font-weight: bold;
     text-transform: capitalize;
-    font-size: 1.2rem;
+    font-size: 14px;
     font-family: 'Poppins', sans-serif;
 
 }
@@ -146,8 +155,19 @@ header a{
     justify-content: space-evenly;
     text-align: center;
     text-transform: capitalize;
+    font-family: 'Poppins-Regular';
+    font-size: 10px;
+    font-weight: bold;
     
-    
+}
+.pokeAbout .p{
+    color: #666666;
+    font-size: 8px;
+    padding: 0.235rem;
+}
+.pokeAbout .pp{
+    color: #666666;
+    font-size: 8px;
 }
 
 .aboutInfo{
@@ -170,16 +190,12 @@ header a{
 .attachments ol{
     list-style: none;
     padding: .5rem;
+    margin: 20px;
 }
 .attachments li{
     padding: .5rem;
 }
 
-.properties img{
-    padding: 1.5rem 0;
-    
-    
-}
 .properties{
     display: flex;
     flex-direction: row;
@@ -189,16 +205,18 @@ header a{
     text-align: center;
     color: #000;
     text-transform: capitalize;
-    font-size: 1rem;
+    font-size: 10px;
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 .propertiesLista{
-    
     text-align: center;
     color: #74CB48;
     text-transform: capitalize;
-    font-size: 1rem;
+    font-size: 10px;
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
 }
 .propertiesValues img{
     padding: 0 1rem;

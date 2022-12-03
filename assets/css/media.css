@@ -4,7 +4,10 @@
     font-family: 'PokemonSolid';
     src: url("../fonts/PokemonSolid.ttf");
 }
-
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url("../fonts/Poppins-Regular.ttf");
+}
 @media screen and (max-width: 440px){
     .pokemons{
         grid-template-columns: 1fr;
