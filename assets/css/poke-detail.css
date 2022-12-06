@@ -32,6 +32,10 @@
 
 body{
     background-color: #f6f8fc;
+    background-image: url(../imagens/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
       
 }
 

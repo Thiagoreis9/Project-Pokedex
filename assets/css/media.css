@@ -8,16 +8,10 @@
     font-family: 'Poppins-Regular';
     src: url("../fonts/Poppins-Regular.ttf");
 }
-@media screen and (max-width: 440px){
+@media screen and (max-width: 390px){
     .pokemons{
         grid-template-columns: 1fr;
 
-    }
-
-    .content{
-        background-position-x: 255px;
-        background-position-y: -70px;
-        
     }
 
 }
