@@ -163,3 +163,8 @@ a{
 .pokeDetail{
     background-color: #49D0B0;
 }
+
+.buttons{
+    display: flex;
+    justify-content: end;
+}

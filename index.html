@@ -11,11 +11,15 @@
     <link rel="stylesheet" href="assets/css/types.css">
     <title>PokéDex</title>
 </head>
-<body>
-    <section class="content">
+<body id="body">
+    <section class="content" id="content">
         
         <header>
             <h1>Pokédex</h1>
+            <div class="buttons">
+                <button class="btLight" onclick="lightMode()">Light</button>
+                <button class="btDark" onclick="darkMode()">Dark</button>
+            </div>
         </header>
 
         <ol id="pokemonList" class="pokemons">
@@ -30,6 +34,7 @@
     </section>
 
     <!-- Nosso JS -->
+    <script src="/assets/js/dark.js"></script>
     <script src="/assets/js/poke-detail.js"></script>
     <script src="/assets/js/pokemon-model.js"></script>
     <script src="/assets/js/poke-api.js"></script>
