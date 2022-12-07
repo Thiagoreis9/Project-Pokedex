@@ -24,7 +24,6 @@
         
         background-position-x: 530px;
         background-position-y: -70px;
-            
         
     }
 
@@ -61,7 +60,6 @@ header a{
     background-size: 25rem;
     background-position: top;
     background-repeat: no-repeat;
-   
     
 }
 
@@ -88,6 +86,7 @@ header a{
     justify-content: center;
     margin-top: -35px;
     padding-top: 50px;
+
 }
 
 .pokeStatus .types .type{
@@ -101,7 +100,6 @@ header a{
     font-size: 12px;
     text-align: center;
     text-transform: capitalize;
-    
     
 }
 
@@ -141,6 +139,7 @@ header a{
 
 .arrow img{
     width: .75rem;
+
 }
 
 .infoTitle{
@@ -164,14 +163,18 @@ header a{
     font-weight: bold;
     
 }
+
 .pokeAbout .p{
     color: #666666;
     font-size: 8px;
     padding: 0.235rem;
+
 }
+
 .pokeAbout .pp{
     color: #666666;
     font-size: 8px;
+
 }
 
 .aboutInfo{
@@ -184,26 +187,33 @@ header a{
 .moves ol{
     list-style: none;
     padding:0;
+
 }
 
 .attachments{
     display: flex;
     flex-direction: row;
     justify-content: center;
+
 }
 .attachments ol{
     list-style: none;
     padding: .5rem;
     margin: 20px;
+
 }
+
 .attachments li{
     padding: .5rem;
+
 }
 
 .properties{
     display: flex;
     flex-direction: row;
+
 }
+
 .propertiesValues li{
     padding: .5rem;
     text-align: center;
@@ -212,7 +222,9 @@ header a{
     font-size: 10px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+
 }
+
 .propertiesLista{
     text-align: center;
     color: #74CB48;
@@ -222,8 +234,10 @@ header a{
     font-weight: bold;
 
 }
+
 .propertiesValues img{
     padding: 0 1rem;
     width: 70%;
+    
 }
 
