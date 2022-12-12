@@ -1,6 +1,5 @@
 const pokemonList = document.getElementById('pokemonList')
 const loadMoreButton = document.getElementById('loadMoreButton')
-const pokemonDetail = document.getElementById('pokemonDetail')
 
 const maxRecords = 1100
 const limit = 50
@@ -35,7 +34,6 @@ function loadPokemonItens(offset, limit) {
 }
 
 loadPokemonItens(offset, limit)
-
 
 loadMoreButton.addEventListener('click', () => {
     offset += limit
