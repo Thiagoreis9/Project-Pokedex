@@ -29,11 +29,10 @@
 }
 
 body{
-    background-color: #f6f8fc;
+    
     background-image: url(../imagens/background.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
+    background-attachment: fixed;
       
 }
 
@@ -56,7 +55,7 @@ header a{
     height: auto;
     margin-bottom: 10px;
     max-width: 992px;
-    border-radius: 0 0 2rem 2rem;
+    border-radius: 2rem;
     background-color:  #74CB48;
     background-image: url(../imagens/Pokeball.png);
     background-size: 25rem;
@@ -102,6 +101,7 @@ header a{
     font-size: 12px;
     text-align: center;
     text-transform: capitalize;
+    color: #fff;
     
     
 }
@@ -149,7 +149,6 @@ header a{
 
 .infoTitle{
     text-align: center;
-    color: #74CB48;
     font-weight: bold;
     text-transform: capitalize;
     font-size: 18px;
@@ -166,6 +165,7 @@ header a{
     font-family: 'Poppins-Regular';
     font-size: 14px;
     font-weight: bold;
+    color: #000;
     
 }
 .pokeAbout .p{
@@ -214,12 +214,12 @@ header a{
 .stats_name {
     text-align: right;
     font-size: 14px;
-    color: #74cb48;
     font-weight: bold;
 }
 
 .stats_value {
     font-size: 14px;
+    color: #000;
 }
 
 .container-barra {
