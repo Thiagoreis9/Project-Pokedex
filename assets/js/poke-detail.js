@@ -1,5 +1,10 @@
 const pokemonDetail = document.getElementById('pokemonDetail');
 const loadDetail = document.getElementById('loadDetail');
+const loadMore = document.getElementById('loadMore')
+
+const maxRecords1 = 1100
+const limit1 = 50
+let offset1 = 0;
 
 function convertPokemonDetail(pokemon) {
     return `<section id="pokemonDetail" class="content ${pokemon.type}">
@@ -111,16 +116,26 @@ function convertPokemonDetail(pokemon) {
 }
 
 function loadPokemonDetail() {
-    pokeApi.getPokemons().then((pokemons = []) => {
+    pokeApi.getPokemons(offset1, limit1).then((pokemons = []) => {
         const newHtml = pokemons.map(convertPokemonDetail).join('');
         pokemonDetail.innerHTML += newHtml;
     })
 }
-
 loadPokemonDetail();
-
-loadDetail.addEventListener('click', () => {
-    
+pokemonDetail.addEventListener('click', () => {
     loadPokemonDetail();
+})
 
+loadMore.addEventListener('click', () => {
+    offset1 += limit1
+    const qtdRecordsWithNexPage = offset1 + limit1
+
+    if (qtdRecordsWithNexPage >= maxRecords1) {
+        const newLimit = maxRecords1 - offset1
+        loadPokemonDetail(offset1, newLimit)
+
+        
+    } else {
+        loadPokemonDetail(offset1, limit1)
+    }
 })
