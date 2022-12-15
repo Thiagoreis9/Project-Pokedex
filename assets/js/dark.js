@@ -15,6 +15,7 @@ function darkMode(){
 
     document.getElementById("button").style.backgroundColor = "#fff";
     document.getElementById("button").style.borderColor = "#000";
+    document.getElementById("button").style.boxShadow = "1px  2px 12px white";
     document.getElementById("button").style.transitionDuration = '1500ms';
 
     document.getElementById("content").style.backgroundColor = "#000";
@@ -35,9 +36,10 @@ function darkMode1(){
 
     document.getElementById("buttons").style.backgroundColor = "#fff";
     document.getElementById("buttons").style.borderColor = "#000";
+    document.getElementById("buttons").style.boxShadow = "1px  2px 12px white";
     document.getElementById("buttons").style.transitionDuration = '1500ms';  
 
-    document.getElementById("content").style.backgroundColor = "#000";
+    document.getElementById("content").style.backgroundColor = "rgba(0,0,0,0.8)";
     document.getElementById("content").style.transitionDuration = '1500ms';
 
 }
@@ -54,9 +56,10 @@ function lightMode(){
     }
     document.getElementById("button").style.backgroundColor = "#000";
     document.getElementById("button").style.borderColor = "#fff";
+    document.getElementById("button").style.boxShadow = "1px  2px 12px black";
     document.getElementById("button").style.transitionDuration = '1500ms';
 
-    document.getElementById("content").style.backgroundColor = "#fff";
+    document.getElementById("content").style.backgroundColor = "rgba(255,255,255,0.8)";
     document.getElementById("content").style.transitionDuration = '1500ms';
 
 }
@@ -73,9 +76,10 @@ function lightMode1(){
     
     document.getElementById("buttons").style.backgroundColor = "#000";
     document.getElementById("buttons").style.borderColor = "#fff";
+    document.getElementById("buttons").style.boxShadow = "1px  2px 12px black";
     document.getElementById("buttons").style.transitionDuration = '1500ms';
 
-    document.getElementById("content").style.backgroundColor = "#fff";
+    document.getElementById("content").style.backgroundColor = "rgba(255,255,255,0.8)";
     document.getElementById("content").style.transitionDuration = '1500ms';
 
 }
