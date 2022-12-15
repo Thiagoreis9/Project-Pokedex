@@ -10,7 +10,16 @@
     <link rel="stylesheet" href="assets/css/types.css">
     <title>PokéDex</title>
 </head>
-<body>
+<body id="body" class="content1">
+
+    <header>
+        <h1>Pokédex</h1>
+        <div id="button">
+            <button class="btStyle btLight" onclick="lightMode()"><img src="assets/imagens/light.png" alt="lightMode"></button>
+            <button class="btStyle btDark" onclick="darkMode()"><img src="assets/imagens/dark.png" alt="darkMode"></button>
+        </div>
+    </header>
+
     <div id="pokemonDetail">
         
         <!-- Poke details here! -->
@@ -29,6 +38,7 @@
     <script src="/assets/js/pokemon-model.js"></script>
     <script src="/assets/js/main.js"></script>
     <script src="/assets/js/poke-detail.js"></script>
+    
 
     
     

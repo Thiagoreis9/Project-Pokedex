@@ -8,7 +8,7 @@ let offset1 = 0;
 
 function convertPokemonDetail(pokemon) {
     return `<section id="pokemonDetail" class="content ${pokemon.type}">
-                <header>
+                <div class="header">
                     <div>
                         <a href="index.html">
                             <img src="assets/imagens/right-arrow.png" alt="backArrow">
@@ -19,22 +19,18 @@ function convertPokemonDetail(pokemon) {
                     <p>
                         <span class="number">#${pokemon.number}</span>
                     </p>
-                </header>
+                </div>
 
                 <div class="pokemonView">
 
                     <span class="arrow">
-                        <a href="index.html">
-                            <img src="assets/imagens/voltar.png" alt="back">
-                        </a>
+                        
                     </span>
 
                     <img src="${pokemon.photo}" alt="${pokemon.name}">
 
                     <span class="arrow">
-                        <a href="index.html">
-                            <img src="assets/imagens/avancar.png" alt="forward">
-                        </a>
+                        
                     </span>                
 
                 </div>
