@@ -70,9 +70,8 @@
 
 .pokeStatus .types .type{
     border-radius: 1rem;
-    padding-top: 5px;
+    padding: 5px;
     width: 4rem;
-    height: 1rem;
     margin: 0 0.5rem;
     font-family: 'Poppins-Regular';
     font-weight: bold;
@@ -247,6 +246,3 @@
 
 }
 
-#pokemonDetail{
-    position: absolute;
-}
