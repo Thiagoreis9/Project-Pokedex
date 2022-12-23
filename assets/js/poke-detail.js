@@ -121,6 +121,7 @@ function loadPokemonDetail(id) {
 
     
     pokemonList.style.display = "none"
+    loadMoreButton.style.display = "none"
 }
 loadPokemonDetail();
 pokemonDetail.addEventListener('click', () => {
