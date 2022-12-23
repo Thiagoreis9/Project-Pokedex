@@ -10,52 +10,15 @@
     src: url("../fonts/Poppins-Regular.ttf");
 }
 
-@media screen and (min-width: 992px){
-    .pokemons{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    
-    }
 
-    .content{
-        height: auto;
-        max-width: 992px;
-        margin: 0rem auto;
-        border-radius: 1rem;
-        background-position-x: 530px;
-        background-position-y: -70px;
-            
-    }
 
-}
 
-body{
-    background-image: url(../imagens/background.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-      
-}
 
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-header h1 {
-    font-family: "PokemonSolid";
-    font-size: 3rem;
-    color: #FECA1B;
-    text-shadow: -4px -4px 0px #3761a8, -4px 4px 0px #3761a8, 4px -4px 0px #3761a8, 4px 0px 0px #3761a8;
 
-}
-header .buttons {
-    display: flex;
-    justify-content: end;
 
-}
 
-.header{
+
+.headerDT{
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
@@ -69,7 +32,7 @@ header .buttons {
     
 }
 
-.content{
+.contentDT{
     padding: 0.5rem;
     height: auto;
     margin-bottom: 10px;
@@ -81,15 +44,6 @@ header .buttons {
     background-repeat: no-repeat;
     
 }
-.content1{
-    padding: .5rem;
-    height: auto;
-    margin-bottom: 10px;
-    max-width: 992px;
-    margin: 0 auto;
-    
-}
-
 
 .pokeStatus{
     height: 400px;
@@ -99,7 +53,7 @@ header .buttons {
 
 }
 
-.content .types {
+.contentDT .types {
     list-style: none;
     color: #fff;
     padding: 1rem;
@@ -147,7 +101,7 @@ header .buttons {
     
 }
 
-.number{
+.numberDT{
     color: #fff;
     margin: .25rem 0;
     margin-bottom: 0;
@@ -157,7 +111,7 @@ header .buttons {
     
 }
 
-.name{
+.nameDT{
     color: #fff;
     margin: .25rem 0;
     margin-bottom: 0;
@@ -266,7 +220,6 @@ header .buttons {
 
 .barra {
     height: 100%;
-    background-color: #dbf5ce;
     height: 10px;
     margin: 8px 0px;
     border-radius: 10px;
@@ -294,42 +247,6 @@ header .buttons {
 
 }
 
-.pagination button{
-    font-family: 'PokemonSolid';
-    padding: .25rem .5rem;
-    margin: .25rem 0;
-    font-size: .625rem;
-    color: #fff;
-    background-color: #6c79db;
-    border: none;
-    border-radius: 1rem;
-
-}
-
-#button{
-    display: flex;
-    justify-content: end;
-    border-radius: 2rem;
-    background-color: black;
-    border-style: solid;
-    border-width: .3rem;
-    border-color: white;
-    box-shadow: 1px  2px 12px black;
-
-
-}
-
-.btStyle {
-    background: none;
-    border: none;
-    padding: .2rem;
-    padding-bottom: 0px;
-}
-
-.btStyle img{
-    background: none;
-    border: none;
-    width: 1.2rem;
-    
-
+#pokemonDetail{
+    position: absolute;
 }

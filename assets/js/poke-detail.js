@@ -2,22 +2,23 @@ const pokemonDetail = document.getElementById('pokemonDetail');
 const loadDetail = document.getElementById('loadDetail');
 const loadMore = document.getElementById('loadMore')
 
+
 const maxRecords1 = 1100
 const limit1 = 50
 let offset1 = 0;
 
 function convertPokemonDetail(pokemon) {
-    return `<section id="pokemonDetail" class="content ${pokemon.type}">
-                <div class="header">
+    return `<section id="pokemonDetail" class="contentDT ${pokemon.type}">
+                <div class="headerDT">
                     <div>
                         <a href="index.html">
                             <img src="assets/imagens/right-arrow.png" alt="backArrow">
                         </a>
-                        <span class="name">${pokemon.name}</span>
+                        <span class="nameDT">${pokemon.name}</span>
                     </div>
 
                     <p>
-                        <span class="number">#${pokemon.number}</span>
+                        <span class="numberDT">#${pokemon.number}</span>
                     </p>
                 </div>
 
@@ -97,7 +98,7 @@ function convertPokemonDetail(pokemon) {
                                 </ol> 
                             </div>
 
-                            <div class="container-barra ">
+                            <div class="container-barra">
                                 <div class="barra ${pokemon.type}"></div>
                                 <div class="barra ${pokemon.type}"></div>
                                 <div class="barra ${pokemon.type}"></div>
@@ -111,11 +112,15 @@ function convertPokemonDetail(pokemon) {
             </section>`
 }
 
-function loadPokemonDetail() {
-    pokeApi.getPokemons(offset1, limit1).then((pokemons = []) => {
+function loadPokemonDetail(id) {
+    
+    pokeApi.getPokemons(id-1, 1).then((pokemons = []) => {
         const newHtml = pokemons.map(convertPokemonDetail).join('');
         pokemonDetail.innerHTML += newHtml;
     })
+
+    
+    pokemonList.style.display = "none"
 }
 loadPokemonDetail();
 pokemonDetail.addEventListener('click', () => {
